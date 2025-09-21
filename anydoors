@@ -1,0 +1,292 @@
+--Kenny泛滥外部汉化脚本我的哔站UID:1531514159（删了这个死妈死爹死全家）
+local Translations = {
+--["这里填要替换的英文"] = "这里填中文",
+["mshax v4.5 | DOORS"] = "mshax v4.5 | 门",
+["Main"] = "主菜单",
+["Player"] = "玩家",
+["Exploits"] = "功能",
+["Visuals"] = "视觉",
+["Floor"] = "楼层",
+["Config"] = "配置",
+["Addons"] = "附加组件",
+["Miscellaneous"] = "杂项",
+["Notifying / ESP"] = "通知/透视",
+["Reach"] = "交互范围",
+["Instant Interacts"] = "瞬间交互",
+["Prompt Clip"] = "提示剪辑",
+["Disable AFK"] = "禁用挂机",
+["Anti Lag"] = "防卡顿",
+["No Cutscenes"] = "无过场动画",
+["Reset"] = "重置",
+["Play Again"] = "再玩一次",
+["Lobby"] = "大厅",
+["Revive"] = "复活",
+["Prompt Reach"] = "提示交互范围",
+["Door Reach"] = "门交互范围",
+["Door Reach Range:"] = "门交互范围：",
+["Entities"] = "实体",
+["Entity Notifys"] = "实体通知",
+["Entities ESP"] = "实体透视",
+["Notify Library Code"] = "通知库代码",
+["Movement"] = "移动",
+["Camera"] = "相机",
+["Infinite Items"] = "无限物品",
+["Speed Boost Slider"] = "速度提升滑块",
+["Speed Boost"] = "速度提升",
+["Noclip"] = "穿墙",
+["Enable Jump"] = "启用跳跃",
+["Infinite Jump"] = "无限跳跃",
+["No Acceleration"] = "无加速",
+["No Closet Exit Delay"] = "无壁橱退出延迟",
+["Fly Speed"] = "飞行速度",
+["Fly"] = "飞行",
+["Infinite Crucifixs"] = "无限十字架",
+["Infinite LockPicks"] = "无限开锁器",
+["Infinite Shears"] = "无限剪刀",
+["Fullbright"] = "全亮度",
+["No Camera Shake"] = "无相机抖动",
+["Third Person"] = "第三人称",
+["Spectate Entity"] = "观察实体",
+["FOV Slider"] = "视野滑块",
+["FOV"] = "视野",
+["Entitys"] = "实体",
+["Bypass"] = "绕过",
+["Automation"] = "自动化",
+["Anti-Dread"] = "防恐惧",
+["Anti-Screech"] = "防尖叫",
+["Anti-A90"] = "防A90",
+["Anti-Eyes"] = "防眼睛",
+["Anti-Snare"] = "防圈套",
+["Anti-Dupe"] = "防复制",
+["Anti-Figure-Hearing"] = "防 Figure 听觉",
+["Anti-Halt"] = "防停止",
+["Auto Interact"] = "自动交互",
+["Ignore List"] = "忽略列表",
+["Auto Heartbeat Minigame"] = "自动心跳小游戏",
+["Unlock Padlock Distance"] = "开锁距离",
+["Automation Library Code"] = "自动化库代码",
+["Auto Breaker Box"] = "自动电闸",
+["Auto Closet"] = "自动壁橱",
+["Speed Bypass"] = "速度绕过",
+["Godmode Dropdown"] = "无敌下拉菜单",
+["God Mode"] = "无敌模式",
+["Anti Cheat Manipulation"] = "反作弊操作",
+["Jeff Items"] = "Jeff 物品",
+["Gold"] = "金币",
+["Drops"] = "掉落物",
+["Settings"] = "设置",
+["Esp"] = "透视",
+["Enable Show Distances"] = "启用显示距离",
+["Transparent"] = "透明",
+["Transparency Slider:"] = "透明度滑块：",
+["Transparency Closet"] = "壁橱透明度",
+["Transparency Cart"] = "推车透明度",
+["Door"] = "门",
+["Key"] = "钥匙",
+["Closet ESP"] = "柜子",
+["Gate Lever"] = "闸门拉杆",
+["Players ESP"] = "玩家",
+["Books"] = "书籍",
+["Breaker"] = "电闸",
+["Items ESP"] = "物品",
+["Gold ESP"] = "金币",
+["Toggle"] = "切换",
+["Lock"] = "锁定",
+["Unlock"] = "解锁",
+["Using New Prohax"] = "使用新Prohax",
+["Loading mshax for DOORS"] = "为门加载mshax",
+["Failed to load autoload config: invalid file"] = "加载自动加载配置失败：文件无效",
+["No Footer"] = "暗夜汉化nb",
+["Entites Bypass"] = "实体绕过",
+["Auto Doors (99 Doors)"] = "自动开门（99门）",
+["Anti Nanner Banana"] = "防香蕉怪",
+["Anti Seek-Obstructions"] = "防Seek障碍",
+["Modifiers"] = "修改器",
+["Death Farm"] = "刷死亡次数",
+["Anti Lookman"] = "防Lookman",
+["Anti Fog"] = "防雾",
+["Anti Giggle"] = "防Giggle",
+["Anti Jamming"] = "防干扰",
+["Anti Gloom Egg"] = "防 gloom 蛋",
+["Anti Vacuum"] = "防真空",
+["Timer Lever ESP"] = "计时拉杆透视",
+["Themes"] = "主题",
+["Background color"] = "背景颜色",
+["Main color"] = "主颜色",
+["Accent color"] = "强调颜色",
+["Outline color"] = "轮廓颜色",
+["Font color"] = "字体颜色",
+["Font Face"] = "字体样式",
+["Code"] = "代码",
+["Theme list"] = "主题列表",
+["Fatalit"] = "致命",
+["Set as default"] = "设为默认",
+["Custom theme name"] = "自定义主题名称",
+["Create theme"] = "创建主题",
+["Custom themes"] = "自定义主题",
+["Load theme"] = "加载主题",
+["Overwrite theme"] = "覆盖主题",
+["Delete theme"] = "删除主题",
+["Refresh list"] = "刷新列表",
+["Reset default"] = "重置默认",
+["UI"] = "界面",
+["Fps Unlocker"] = "帧率解锁",
+["Play Sound"] = "播放声音",
+["Notify Side"] = "通知位置",
+["Right"] = "右",
+["Left"] = "左",
+["Menu bind"] = "菜单按键",
+["RightShift"] = "右Shift",
+["Show Keybinds"] = "显示按键绑定",
+["Show Custom Cursor"] = "显示自定义光标",
+["Unload GUI"] = "卸载界面",
+["Join Discord"] = "加入Discord",
+["Credits"] = "鸣谢",
+["KardinCat - Creator"] = "KardinCat - 创作者",
+["notzanocoddz - W Guy Made Auto"] = "notzanocoddz - 自动功能制作者",
+["Load Config"] = "加载配置",
+["Configuration"] = "配置",
+["Config name"] = "配置名称",
+["Create config"] = "创建配置",
+["Config list"] = "配置列表",
+["Overwrite config"] = "覆盖配置",
+["Delete config"] = "删除配置",
+["Set as autoload"] = "设为自动加载",
+["Reset autoload"] = "重置自动加载",
+["Current autoload config: Doors"] = "当前自动加载配置：门",
+["BuilderSans"] = "BuilderSans",
+["Fantasy"] = "幻想体",
+["Gotham"] = "Gotham",
+["Jura"] = "Jura",
+["Roboto"] = "Roboto",
+["RobotoMono"] = "RobotoMono",
+["SourceSans"] = "SourceSans",
+["BBot"] = "BBot",
+["Jester"] = "小丑",
+["Mint"] = "薄荷",
+["Tokyo Night"] = "东京之夜",
+["Ubuntu"] = "Ubuntu",
+["Quartz"] = "石英",
+["Nord"] = "Nord",
+["Dracula"] = "德古拉",
+["Monokai"] = "Monokai",
+["Gruvbox"] = "Gruvbox",
+["Solarized"] = "Solarized",
+["Catppuccin"] = "Catppuccin",
+["One Dark"] = "One Dark",
+["Cyberpunk"] = "赛博朋克",
+["Toggle the visibility of the Cursor"] = "切换光标可见性"
+}
+ 
+local function translateText(text)
+if not text or type(text) ~= "string" then return text end
+ 
+if Translations[text] then
+return Translations[text]
+end
+ 
+for en, cn in pairs(Translations) do
+if text:find(en) then
+return text:gsub(en, cn)
+end
+end
+ 
+return text
+end
+ 
+local function setupTranslationEngine()
+local success, err = pcall(function()
+local oldIndex = getrawmetatable(game).__newindex
+setreadonly(getrawmetatable(game), false)
+ 
+getrawmetatable(game).__newindex = newcclosure(function(t, k, v)
+if (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) and k == "Text" then
+v = translateText(tostring(v))
+end
+return oldIndex(t, k, v)
+end)
+ 
+setreadonly(getrawmetatable(game), true)
+end)
+ 
+if not success then
+warn("元表劫持失败:", err)
+ 
+local translated = {}
+local function scanAndTranslate()
+for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+pcall(function()
+local text = gui.Text
+if text and text ~= "" then
+local translatedText = translateText(text)
+if translatedText ~= text then
+gui.Text = translatedText
+translated[gui] = true
+end
+end
+end)
+end
+end
+ 
+local player = game:GetService("Players").LocalPlayer
+if player and player:FindFirstChild("PlayerGui") then
+for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+pcall(function()
+local text = gui.Text
+if text and text ~= "" then
+local translatedText = translateText(text)
+if translatedText ~= text then
+gui.Text = translatedText
+translated[gui] = true
+end
+end
+end)
+end
+end
+end
+end
+ 
+local function setupDescendantListener(parent)
+parent.DescendantAdded:Connect(function(descendant)
+if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+task.wait(0.1)
+pcall(function()
+local text = descendant.Text
+if text and text ~= "" then
+local translatedText = translateText(text)
+if translatedText ~= text then
+descendant.Text = translatedText
+end
+end
+end)
+end
+end)
+end
+ 
+pcall(setupDescendantListener, game:GetService("CoreGui"))
+local player = game:GetService("Players").LocalPlayer
+if player and player:FindFirstChild("PlayerGui") then
+pcall(setupDescendantListener, player.PlayerGui)
+end
+ 
+while true do
+scanAndTranslate()
+task.wait(3)
+end
+end
+end
+ 
+task.wait(2)
+ 
+setupTranslationEngine()
+ 
+local success, err = pcall(function()
+--这下面填加载外部脚本
+ loadstring(game:HttpGet("https://rawscripts.net/raw/DOORS-Prohax-v3-47773"))()
+end)
+ 
+if not success then
+warn("加载失败:", err)
+end
